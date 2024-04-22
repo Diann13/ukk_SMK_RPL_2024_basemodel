@@ -1,0 +1,346 @@
+[2024-04-21 06:06:57] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('make:migrate')
+#1 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-04-21 06:07:27] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('make:migrate')
+#1 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-04-21 06:10:33] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists (Connection: mysql, SQL: create table `album` (`id` bigint unsigned not null auto_increment primary key, `user_id` bigint unsigned not null, `nama` varchar(255) not null, `deskripsi` text not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists (Connection: mysql, SQL: create table `album` (`id` bigint unsigned not null auto_increment primary key, `user_id` bigint unsigned not null, `nama` varchar(255) not null, `deskripsi` text not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('create table `a...', Array, Object(Closure))
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('create table `a...', Array, Object(Closure))
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `a...')
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(460): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->create('album', Object(Closure))
+#6 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060735_create_album_table.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('D:\\\\laragon\\\\www\\\\...', 2, false)
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(92): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(104): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#25 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:587)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(587): PDOStatement->execute()
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `a...', Array)
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('create table `a...', Array, Object(Closure))
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('create table `a...', Array, Object(Closure))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `a...')
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(460): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->create('album', Object(Closure))
+#8 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060735_create_album_table.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('D:\\\\laragon\\\\www\\\\...', 2, false)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(92): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(104): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2024-04-21 06:11:06] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists (Connection: mysql, SQL: create table `album` (`id` bigint unsigned not null auto_increment primary key, `user_id` bigint unsigned not null, `nama` varchar(255) not null, `deskripsi` text not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists (Connection: mysql, SQL: create table `album` (`id` bigint unsigned not null auto_increment primary key, `user_id` bigint unsigned not null, `nama` varchar(255) not null, `deskripsi` text not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('create table `a...', Array, Object(Closure))
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('create table `a...', Array, Object(Closure))
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `a...')
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(460): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->create('album', Object(Closure))
+#6 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060735_create_album_table.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('D:\\\\laragon\\\\www\\\\...', 2, false)
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(92): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(104): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#25 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'album' already exists at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:587)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(587): PDOStatement->execute()
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `a...', Array)
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('create table `a...', Array, Object(Closure))
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('create table `a...', Array, Object(Closure))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `a...')
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(460): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->create('album', Object(Closure))
+#8 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060735_create_album_table.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('D:\\\\laragon\\\\www\\\\...', 2, false)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(92): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(104): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2024-04-21 06:18:10] local.ERROR: SQLSTATE[HY000]: General error: 3730 Cannot drop table 'foto' referenced by a foreign key constraint 'like_foto_id_foreign' on table 'like'. (Connection: mysql, SQL: drop table if exists `foto`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 3730 Cannot drop table 'foto' referenced by a foreign key constraint 'like_foto_id_foreign' on table 'like'. (Connection: mysql, SQL: drop table if exists `foto`) at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('drop table if e...', Array, Object(Closure))
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('drop table if e...', Array, Object(Closure))
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('drop table if e...')
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(486): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->dropIfExists('foto')
+#6 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060741_create_foto_table.php(29): Illuminate\\Support\\Facades\\Facade::__callStatic('dropIfExists', Array)
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->down()
+#8 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'down')
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(385): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'down')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(385): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(306): Illuminate\\Database\\Migrations\\Migrator->runDown('D:\\\\laragon\\\\www\\\\...', Object(stdClass), false)
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(246): Illuminate\\Database\\Migrations\\Migrator->rollbackMigrations(Array, Array, Array)
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(63): Illuminate\\Database\\Migrations\\Migrator->rollback(Array, Array)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(66): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->handle()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#25 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\RollbackCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 3730 Cannot drop table 'foto' referenced by a foreign key constraint 'like_foto_id_foreign' on table 'like'. at D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:587)
+[stacktrace]
+#0 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(587): PDOStatement->execute()
+#1 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('drop table if e...', Array)
+#2 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('drop table if e...', Array, Object(Closure))
+#3 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(588): Illuminate\\Database\\Connection->run('drop table if e...', Array, Object(Closure))
+#4 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('drop table if e...')
+#5 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(602): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(486): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(355): Illuminate\\Database\\Schema\\Builder->dropIfExists('foto')
+#8 D:\\laragon\\www\\galeri-test\\database\\migrations\\2024_04_21_060741_create_foto_table.php(29): Illuminate\\Support\\Facades\\Facade::__callStatic('dropIfExists', Array)
+#9 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->down()
+#10 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'down')
+#11 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(385): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'down')
+#13 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2024_04_21_0607...', Object(Closure))
+#15 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(385): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_04_21_0607...', Object(Closure))
+#16 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(306): Illuminate\\Database\\Migrations\\Migrator->runDown('D:\\\\laragon\\\\www\\\\...', Object(stdClass), false)
+#17 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(246): Illuminate\\Database\\Migrations\\Migrator->rollbackMigrations(Array, Array, Array)
+#18 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(63): Illuminate\\Database\\Migrations\\Migrator->rollback(Array, Array)
+#19 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(66): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->handle()
+#22 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#27 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\RollbackCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\laragon\\www\\galeri-test\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 D:\\laragon\\www\\galeri-test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 D:\\laragon\\www\\galeri-test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
